@@ -29,11 +29,15 @@ The source database is live, so counts move as I use the product. The CSVs in `d
 
 **Fix in the taxonomy:** `session.ended` carries a required `reason` enum. Sessions without a terminal event are counted as open, and open sessions never appear in a completion numerator.
 
+![How sessions end](charts/session_end_reason.svg)
+
 ### 2. This is a scheduled product as much as an interactive one
 
 64 of 90 sessions (71%) were triggered by a schedule. Interactive use accounts for 26 sessions across CLI, desktop, and one messaging gateway. Any engagement definition written for interactive use would ignore most of the traffic, and any cost definition written for interactive use would misprice it.
 
 **Fix:** `surface` is a required property on every event and a first-class dimension on every metric.
+
+![Where sessions come from](charts/sessions_by_source.svg)
 
 ### 3. Tool intensity moved. Session counts did not.
 
@@ -41,17 +45,24 @@ The weeks of 09-21 and 09-28 produced 8 sessions and zero tool calls. The week o
 
 **Fix:** `tool.called` per session is a quality metric for activation, not a volume metric. Activation is defined as a first session that reaches a tool call, not a first session.
 
+![Sessions per week](charts/weekly_sessions.svg)
+
 ### 4. Model identity is split by routing detail
 
 The data holds 9 distinct model strings and 7 actual models. GLM traffic reads as 728 API calls only after normalization; as stored it is 603 under one provider prefix plus 125 under another. DeepSeek splits the same way, 134 plus 89. The differences are serving route and region suffix, not behavior. Every per-model cost, latency, or quality comparison built on the raw strings is wrong by construction.
 
 **Fix:** a normalized `model_key` in the semantic layer, the raw string retained beside it for debugging, and a test that fails when an unmapped routing variant appears in the data.
 
+![Model identity as stored](charts/model_identity.svg)
+![Model identity after normalization](charts/model_identity_normalized.svg)
+
 ### 5. Cost is an estimate with known holes, so it needs a stated denominator
 
 $1.98 estimated across the window, $0.022 per session, at an 8.4 to 1 input to output token ratio. Some rows carry no cost status at all, which means a per-model cost chart silently mixes estimated rows with unknown ones. Cost per session and cost per tool call are honest denominators. A total labeled "spend" is not.
 
 **Fix:** `cost_status` rides on every cost fact and unknown never co-mingles inside a total. The 8.4 to 1 ratio also says the cost problem is context management, not output length.
+
+![Tool calls by tool](charts/tool_mix.svg)
 
 **And the retention reality:** 12 active weeks out of 18, with a four-week gap in August and a two-week gap in October. Week-level cohorts show that shape. Monthly active users would hide it entirely.
 
@@ -62,7 +73,7 @@ extract.py        read the local store, write aggregate CSVs (excludes PII by co
 analyze.py        normalize model ids, compute metrics, emit charts (stdlib only)
 pii_scan.py       pre-commit scan for contact data, ids, paths, secrets
 data/             frozen CSVs plus metrics.json
-charts/           SVG charts, one per finding
+charts/           SVG charts, embedded above and one per finding
 docs/event-taxonomy.md    proposed events, properties, identity, sensitivity
 docs/metrics-layer.md     metric definitions, shapes, denominators, gating
 ```
