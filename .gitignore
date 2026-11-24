@@ -2,3 +2,6 @@ __pycache__/
 *.pyc
 .DS_Store
 private_terms.txt
+.Rhistory
+.Rproj.user/
+.ipynb_checkpoints/
