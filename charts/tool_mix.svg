@@ -1,0 +1,40 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 398" width="760" height="398" font-family="Helvetica,Arial,sans-serif">
+<rect width="760" height="398" fill="#ffffff"/>
+<text x="16" y="26" font-size="15" font-weight="bold" fill="#1f2933">Tool calls by tool (top 12)</text>
+<text x="240" y="67" font-size="12" text-anchor="end" fill="#1f2933">terminal</text>
+<rect x="250" y="55" width="420.0" height="15" fill="#2b6cb0" opacity="0.85"/>
+<text x="678.0" y="67" font-size="12" fill="#7b8794">631 calls</text>
+<text x="240" y="93" font-size="12" text-anchor="end" fill="#1f2933">patch</text>
+<rect x="250" y="81" width="81.2" height="15" fill="#2b6cb0" opacity="0.85"/>
+<text x="339.2" y="93" font-size="12" fill="#7b8794">122 calls</text>
+<text x="240" y="119" font-size="12" text-anchor="end" fill="#1f2933">write_file</text>
+<rect x="250" y="107" width="35.9" height="15" fill="#2b6cb0" opacity="0.85"/>
+<text x="293.9" y="119" font-size="12" fill="#7b8794">54 calls</text>
+<text x="240" y="145" font-size="12" text-anchor="end" fill="#1f2933">execute_code</text>
+<rect x="250" y="133" width="33.3" height="15" fill="#2b6cb0" opacity="0.85"/>
+<text x="291.3" y="145" font-size="12" fill="#7b8794">50 calls</text>
+<text x="240" y="171" font-size="12" text-anchor="end" fill="#1f2933">skill_view</text>
+<rect x="250" y="159" width="26.0" height="15" fill="#2b6cb0" opacity="0.85"/>
+<text x="284.0" y="171" font-size="12" fill="#7b8794">39 calls</text>
+<text x="240" y="197" font-size="12" text-anchor="end" fill="#1f2933">image_generate</text>
+<rect x="250" y="185" width="22.0" height="15" fill="#2b6cb0" opacity="0.85"/>
+<text x="280.0" y="197" font-size="12" fill="#7b8794">33 calls</text>
+<text x="240" y="223" font-size="12" text-anchor="end" fill="#1f2933">memory</text>
+<rect x="250" y="211" width="18.0" height="15" fill="#2b6cb0" opacity="0.85"/>
+<text x="276.0" y="223" font-size="12" fill="#7b8794">27 calls</text>
+<text x="240" y="249" font-size="12" text-anchor="end" fill="#1f2933">read_file</text>
+<rect x="250" y="237" width="17.3" height="15" fill="#2b6cb0" opacity="0.85"/>
+<text x="275.3" y="249" font-size="12" fill="#7b8794">26 calls</text>
+<text x="240" y="275" font-size="12" text-anchor="end" fill="#1f2933">process_manage</text>
+<rect x="250" y="263" width="12.6" height="15" fill="#2b6cb0" opacity="0.85"/>
+<text x="270.6" y="275" font-size="12" fill="#7b8794">19 calls</text>
+<text x="240" y="301" font-size="12" text-anchor="end" fill="#1f2933">cronjob_manage</text>
+<rect x="250" y="289" width="12.6" height="15" fill="#2b6cb0" opacity="0.85"/>
+<text x="270.6" y="301" font-size="12" fill="#7b8794">19 calls</text>
+<text x="240" y="327" font-size="12" text-anchor="end" fill="#1f2933">session_search</text>
+<rect x="250" y="315" width="12.0" height="15" fill="#2b6cb0" opacity="0.85"/>
+<text x="270.0" y="327" font-size="12" fill="#7b8794">18 calls</text>
+<text x="240" y="353" font-size="12" text-anchor="end" fill="#1f2933">vision_analyze</text>
+<rect x="250" y="341" width="10.6" height="15" fill="#2b6cb0" opacity="0.85"/>
+<text x="268.6" y="353" font-size="12" fill="#7b8794">16 calls</text>
+</svg>

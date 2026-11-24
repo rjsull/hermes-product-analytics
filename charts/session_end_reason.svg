@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 216" width="760" height="216" font-family="Helvetica,Arial,sans-serif">
+<rect width="760" height="216" fill="#ffffff"/>
+<text x="16" y="26" font-size="15" font-weight="bold" fill="#1f2933">How sessions end</text>
+<text x="240" y="67" font-size="12" text-anchor="end" fill="#1f2933">cron_complete</text>
+<rect x="250" y="55" width="420.0" height="15" fill="#b7791f" opacity="0.85"/>
+<text x="678.0" y="67" font-size="12" fill="#7b8794">43 sessions</text>
+<text x="240" y="93" font-size="12" text-anchor="end" fill="#1f2933">open</text>
+<rect x="250" y="81" width="156.3" height="15" fill="#b7791f" opacity="0.85"/>
+<text x="414.3" y="93" font-size="12" fill="#7b8794">16 sessions</text>
+<text x="240" y="119" font-size="12" text-anchor="end" fill="#1f2933">startup_orphan_reap</text>
+<rect x="250" y="107" width="127.0" height="15" fill="#b7791f" opacity="0.85"/>
+<text x="385.0" y="119" font-size="12" fill="#7b8794">13 sessions</text>
+<text x="240" y="145" font-size="12" text-anchor="end" fill="#1f2933">ws_orphan_reap</text>
+<rect x="250" y="133" width="117.2" height="15" fill="#b7791f" opacity="0.85"/>
+<text x="375.2" y="145" font-size="12" fill="#7b8794">12 sessions</text>
+<text x="240" y="171" font-size="12" text-anchor="end" fill="#1f2933">cron_incomplete_no_output</text>
+<rect x="250" y="159" width="58.6" height="15" fill="#b7791f" opacity="0.85"/>
+<text x="316.6" y="171" font-size="12" fill="#7b8794">6 sessions</text>
+</svg>

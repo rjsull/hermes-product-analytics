@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 320" width="760" height="320" font-family="Helvetica,Arial,sans-serif">
+<rect width="760" height="320" fill="#ffffff"/>
+<text x="16" y="26" font-size="15" font-weight="bold" fill="#1f2933">API calls per model, raw strings as stored</text>
+<text x="240" y="67" font-size="12" text-anchor="end" fill="#1f2933">z-ai/glm-5.3-flash:US</text>
+<rect x="250" y="55" width="420.0" height="15" fill="#2b6cb0" opacity="0.85"/>
+<text x="678.0" y="67" font-size="12" fill="#7b8794">603 calls</text>
+<text x="240" y="93" font-size="12" text-anchor="end" fill="#1f2933">kimi-k3-1-pro</text>
+<rect x="250" y="81" width="103.8" height="15" fill="#2b6cb0" opacity="0.85"/>
+<text x="361.8" y="93" font-size="12" fill="#7b8794">149 calls</text>
+<text x="240" y="119" font-size="12" text-anchor="end" fill="#1f2933">glm-5-2</text>
+<rect x="250" y="107" width="96.1" height="15" fill="#2b6cb0" opacity="0.85"/>
+<text x="354.1" y="119" font-size="12" fill="#7b8794">138 calls</text>
+<text x="240" y="145" font-size="12" text-anchor="end" fill="#1f2933">deepseek/deepseek-v4.1-flash</text>
+<rect x="250" y="133" width="93.3" height="15" fill="#2b6cb0" opacity="0.85"/>
+<text x="351.3" y="145" font-size="12" fill="#7b8794">134 calls</text>
+<text x="240" y="171" font-size="12" text-anchor="end" fill="#1f2933">glm-5-3-flash</text>
+<rect x="250" y="159" width="87.1" height="15" fill="#2b6cb0" opacity="0.85"/>
+<text x="345.1" y="171" font-size="12" fill="#7b8794">125 calls</text>
+<text x="240" y="197" font-size="12" text-anchor="end" fill="#1f2933">deepseek-v4-1-flash</text>
+<rect x="250" y="185" width="62.0" height="15" fill="#2b6cb0" opacity="0.85"/>
+<text x="320.0" y="197" font-size="12" fill="#7b8794">89 calls</text>
+<text x="240" y="223" font-size="12" text-anchor="end" fill="#1f2933">gpt-oss-120b</text>
+<rect x="250" y="211" width="41.8" height="15" fill="#2b6cb0" opacity="0.85"/>
+<text x="299.8" y="223" font-size="12" fill="#7b8794">60 calls</text>
+<text x="240" y="249" font-size="12" text-anchor="end" fill="#1f2933">stepfun/step-3.7-flash:free</text>
+<rect x="250" y="237" width="4.2" height="15" fill="#2b6cb0" opacity="0.85"/>
+<text x="262.2" y="249" font-size="12" fill="#7b8794">6 calls</text>
+<text x="240" y="275" font-size="12" text-anchor="end" fill="#1f2933">kimi-k3</text>
+<rect x="250" y="263" width="2.8" height="15" fill="#2b6cb0" opacity="0.85"/>
+<text x="260.8" y="275" font-size="12" fill="#7b8794">4 calls</text>
+</svg>

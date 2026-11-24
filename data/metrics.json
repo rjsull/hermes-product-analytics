@@ -1,0 +1,216 @@
+{
+  "window": {
+    "first_session": "2026-07-28",
+    "last_session": "2026-11-24",
+    "weeks_covered": 12
+  },
+  "volume": {
+    "sessions_total": 90,
+    "sessions_completed_cleanly": 43,
+    "sessions_ended_by_reap": 25,
+    "sessions_incomplete_no_output": 6,
+    "completion_rate": 0.4778,
+    "abandoned_or_reaped_rate": 0.3444,
+    "messages_total": 2209,
+    "tool_calls_total": 956,
+    "tool_calls_per_session": 10.62,
+    "input_tokens": 6048168,
+    "output_tokens": 722598,
+    "input_output_ratio": 8.4,
+    "cost_usd_estimated": 1.975,
+    "cost_per_session_usd": 0.0219
+  },
+  "mix": {
+    "sessions_by_source": {
+      "scheduled": 64,
+      "local_cli": 15,
+      "desktop_app": 10,
+      "messaging_gateway": 1
+    },
+    "sessions_by_end_reason": {
+      "cron_complete": 43,
+      "open": 16,
+      "startup_orphan_reap": 13,
+      "ws_orphan_reap": 12,
+      "cron_incomplete_no_output": 6
+    },
+    "tool_calls_by_tool": {
+      "terminal": 631,
+      "patch": 122,
+      "write_file": 54,
+      "execute_code": 50,
+      "skill_view": 39,
+      "image_generate": 33,
+      "memory": 27,
+      "read_file": 26,
+      "process_manage": 19,
+      "cronjob_manage": 19,
+      "session_search": 18,
+      "vision_analyze": 16,
+      "clarify": 12,
+      "tool_search": 12,
+      "browser_exec": 12,
+      "search_files": 8,
+      "skill_manage": 8,
+      "cronjob": 7,
+      "tool_describe": 4,
+      "web_search": 4,
+      "tool_call": 2,
+      "web_extract": 2,
+      "read_terminal": 1,
+      "todo": 1,
+      "todo_list": 1
+    },
+    "model_api_calls_raw": {
+      "z-ai/glm-5.3-flash:US": 603,
+      "kimi-k3-1-pro": 149,
+      "glm-5-2": 138,
+      "deepseek/deepseek-v4.1-flash": 134,
+      "glm-5-3-flash": 125,
+      "deepseek-v4-1-flash": 89,
+      "gpt-oss-120b": 60,
+      "stepfun/step-3.7-flash:free": 6,
+      "kimi-k3": 4
+    },
+    "model_api_calls_normalized": {
+      "glm-5-3-flash": 728,
+      "deepseek-v4-1-flash": 223,
+      "kimi-k3-1-pro": 149,
+      "glm-5-2": 138,
+      "gpt-oss-120b": 60,
+      "step-3-7-flash": 6,
+      "kimi-k3": 4
+    },
+    "distinct_models_raw": 9,
+    "distinct_models_normalized": 7
+  },
+  "weekly": [
+    {
+      "week_start": "2026-07-27",
+      "sessions": "2",
+      "days_active": "1",
+      "messages": "73",
+      "tool_calls": "35",
+      "input_tokens": "1349298",
+      "output_tokens": "10032",
+      "est_cost_usd": "0.0"
+    },
+    {
+      "week_start": "2026-08-31",
+      "sessions": "11",
+      "days_active": "7",
+      "messages": "407",
+      "tool_calls": "190",
+      "input_tokens": "1418090",
+      "output_tokens": "144402",
+      "est_cost_usd": "0.0"
+    },
+    {
+      "week_start": "2026-09-07",
+      "sessions": "8",
+      "days_active": "3",
+      "messages": "72",
+      "tool_calls": "34",
+      "input_tokens": "203795",
+      "output_tokens": "184880",
+      "est_cost_usd": "0.0"
+    },
+    {
+      "week_start": "2026-09-14",
+      "sessions": "7",
+      "days_active": "4",
+      "messages": "37",
+      "tool_calls": "12",
+      "input_tokens": "65458",
+      "output_tokens": "8625",
+      "est_cost_usd": "0.0"
+    },
+    {
+      "week_start": "2026-09-21",
+      "sessions": "5",
+      "days_active": "5",
+      "messages": "9",
+      "tool_calls": "0",
+      "input_tokens": "0",
+      "output_tokens": "0",
+      "est_cost_usd": "0.0"
+    },
+    {
+      "week_start": "2026-09-28",
+      "sessions": "3",
+      "days_active": "2",
+      "messages": "6",
+      "tool_calls": "0",
+      "input_tokens": "0",
+      "output_tokens": "0",
+      "est_cost_usd": "0.0"
+    },
+    {
+      "week_start": "2026-10-19",
+      "sessions": "10",
+      "days_active": "6",
+      "messages": "55",
+      "tool_calls": "17",
+      "input_tokens": "162419",
+      "output_tokens": "33589",
+      "est_cost_usd": "0.0"
+    },
+    {
+      "week_start": "2026-10-26",
+      "sessions": "7",
+      "days_active": "5",
+      "messages": "56",
+      "tool_calls": "21",
+      "input_tokens": "84243",
+      "output_tokens": "10935",
+      "est_cost_usd": "0.0"
+    },
+    {
+      "week_start": "2026-11-02",
+      "sessions": "8",
+      "days_active": "7",
+      "messages": "55",
+      "tool_calls": "18",
+      "input_tokens": "70806",
+      "output_tokens": "20123",
+      "est_cost_usd": "0.0"
+    },
+    {
+      "week_start": "2026-11-09",
+      "sessions": "9",
+      "days_active": "7",
+      "messages": "213",
+      "tool_calls": "97",
+      "input_tokens": "593460",
+      "output_tokens": "62198",
+      "est_cost_usd": "0.0"
+    },
+    {
+      "week_start": "2026-11-16",
+      "sessions": "13",
+      "days_active": "4",
+      "messages": "1033",
+      "tool_calls": "449",
+      "input_tokens": "1807701",
+      "output_tokens": "117490",
+      "est_cost_usd": "1.8042"
+    },
+    {
+      "week_start": "2026-11-23",
+      "sessions": "7",
+      "days_active": "2",
+      "messages": "193",
+      "tool_calls": "83",
+      "input_tokens": "292898",
+      "output_tokens": "130324",
+      "est_cost_usd": "0.1707"
+    }
+  ],
+  "definition_notes": [
+    "sessions_total counts rows in the session table, including sessions that were reaped.",
+    "completion_rate counts only sessions whose end_reason is cron_complete.",
+    "cost_usd_estimated sums per-session estimated_cost_usd; it is an estimate, not a bill.",
+    "model counts are API calls, not sessions; a session can span more than one model.",
+    "rate metrics are reported once per window and never averaged across weeks."
+  ]
+}

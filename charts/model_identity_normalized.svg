@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 268" width="760" height="268" font-family="Helvetica,Arial,sans-serif">
+<rect width="760" height="268" fill="#ffffff"/>
+<text x="16" y="26" font-size="15" font-weight="bold" fill="#1f2933">API calls per model, after normalization</text>
+<text x="240" y="67" font-size="12" text-anchor="end" fill="#1f2933">glm-5-3-flash</text>
+<rect x="250" y="55" width="420.0" height="15" fill="#b7791f" opacity="0.85"/>
+<text x="678.0" y="67" font-size="12" fill="#7b8794">728 calls</text>
+<text x="240" y="93" font-size="12" text-anchor="end" fill="#1f2933">deepseek-v4-1-flash</text>
+<rect x="250" y="81" width="128.7" height="15" fill="#b7791f" opacity="0.85"/>
+<text x="386.7" y="93" font-size="12" fill="#7b8794">223 calls</text>
+<text x="240" y="119" font-size="12" text-anchor="end" fill="#1f2933">kimi-k3-1-pro</text>
+<rect x="250" y="107" width="86.0" height="15" fill="#b7791f" opacity="0.85"/>
+<text x="344.0" y="119" font-size="12" fill="#7b8794">149 calls</text>
+<text x="240" y="145" font-size="12" text-anchor="end" fill="#1f2933">glm-5-2</text>
+<rect x="250" y="133" width="79.6" height="15" fill="#b7791f" opacity="0.85"/>
+<text x="337.6" y="145" font-size="12" fill="#7b8794">138 calls</text>
+<text x="240" y="171" font-size="12" text-anchor="end" fill="#1f2933">gpt-oss-120b</text>
+<rect x="250" y="159" width="34.6" height="15" fill="#b7791f" opacity="0.85"/>
+<text x="292.6" y="171" font-size="12" fill="#7b8794">60 calls</text>
+<text x="240" y="197" font-size="12" text-anchor="end" fill="#1f2933">step-3-7-flash</text>
+<rect x="250" y="185" width="3.5" height="15" fill="#b7791f" opacity="0.85"/>
+<text x="261.5" y="197" font-size="12" fill="#7b8794">6 calls</text>
+<text x="240" y="223" font-size="12" text-anchor="end" fill="#1f2933">kimi-k3</text>
+<rect x="250" y="211" width="2.3" height="15" fill="#b7791f" opacity="0.85"/>
+<text x="260.3" y="223" font-size="12" fill="#7b8794">4 calls</text>
+</svg>
